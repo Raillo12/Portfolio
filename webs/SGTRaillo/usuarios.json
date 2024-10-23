@@ -1,0 +1,12 @@
+[
+    {
+        "usuario": "Raillo",
+        "contrase\u00f1a": "$2y$10$bFWA1HkMTWax0HTBKiW11uxUFSenuFw\/1LiWGFPAJaJxIK5hsDheu",
+        "rol": "Admin"
+    },
+    {
+        "usuario": "Paquito",
+        "contrase\u00f1a": "$2y$10$0By\/rHoh.4gNQulM\/FB.c.3GzlT1eP03PVD7QMXw60VauHroB.7Fi",
+        "rol": "User"
+    }
+]

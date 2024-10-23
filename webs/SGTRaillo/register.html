@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/img.png">
+        </div>
+
+        <div id="titulo">
+            <h1>Sistema de Gestión de Tareas Raillo</h1>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="contenedor_register">
+        <div id="cuadrado-register">
+            <h2>Registrarse</h2>
+            <br>
+            <br>
+            <form action="usuarios_registrados.php" method="POST">
+                <div id="p_user">
+                    <label for="user" class="junto">
+                        <img src="https://icons.iconarchive.com/icons/colebemis/feather/128/user-icon.png" class="icon">
+                        <h4>Usuario</h4>
+                    </label>
+                    <br>
+                    <input type="text" name="user" class="introducir" required="" id="user">
+                </div>
+                <br>
+                <br>
+                <div id="p_passwd">
+                    <label for="passwd" class="junto">
+                        <img src="https://icons.iconarchive.com/icons/colebemis/feather/128/shield-icon.png" class="icon">
+                        <h4>Contraseña</h4>
+                    </label>
+                    <br>
+                    <input type="text" name="passwd" class="introducir" required="" id="pass">
+                </div>
+                <br>
+                <br>
+                <div id="p_rol">
+                    <label for="rol" class="junto">
+                        <img src="https://icons.iconarchive.com/icons/iconsmind/outline/128/User-icon.png" class="icon">
+                        <h4>Rol</h4>
+                    </label>
+                    <br>
+                    <input type="text" name="rol" class="introducir" required="" id="rol">
+                </div>
+                <br>
+                <br>
+                <input type="submit" value="REGISTRARSE" id="btn">
+            </form>
+            <br>
+            <br>
+            <p>Si ya estás registrado, <a href="index.html">inicia sesión</a></p>
+        </div>
+    </section>
+</body>
+
+</html>

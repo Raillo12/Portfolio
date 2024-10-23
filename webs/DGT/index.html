@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>DGT | Jesús Raillo</title>
+</head>
+<body>
+
+	<header>
+	<div class="azul">
+		<br>
+	</div>
+	<div class="banner">
+		<div class="img">
+			<img src="dgt.png">
+		</div>
+		<div class="texto">
+			<h3>Sede electrónica</h3>
+			<h4>sede.dgt.gob.es</h4>
+		</div>
+	</div>	
+	</header>
+
+	<br>
+
+	<main>
+		<div class="consulta">
+			<div class="titulo">
+				<h4>CONSULTAR VEHÍCULO</h4>
+			</div>
+			<div class="icono">
+				<a href="https://sedeapl.dgt.gob.es:7443/NOTP_INTER/ayuda/index_es.html">
+					<img src="ayuda.png">
+				</a>
+			</div>
+		</div>
+
+
+		<div class="formulario">
+			<p>A continuación rellene los datos del formulario y pulse el botón "Buscar".</p>
+			<p><b>(*): campo obligatorio</b></p>
+			<p><b>Si deseas ver todas las multas, escriba <i>ALL</i></b></p>
+
+			<br>
+
+			<div class="contenido-form">
+				<form method="post" action="multa.php">
+					<div class="marco">
+						<p><b>ID Multa (*): </b>&nbsp;&nbsp;&nbsp;<input type="text" id="nif" name="nif"></p>
+						<p><b>Nombre: </b>&nbsp;&nbsp;&nbsp;<input type="text" name="nombre"></p>
+						<p><b>Edad: </b>&nbsp;&nbsp;&nbsp;<input type="text" name="edad"></p>
+					</div>
+
+					<br>
+
+					<div class="btns">
+						<input type="submit" value="Buscar" /></p>&nbsp;&nbsp;&nbsp;
+						<input type="reset" value="Limpiar" /></p>
+					</div>
+				</form>
+			</div>
+
+			<div class="img2">
+				<img src="form.png">
+			</div>
+		</div>
+
+	</main>
+
+</body>
+</html>

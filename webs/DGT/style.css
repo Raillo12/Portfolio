@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.azul {
+	background-color: #4c4959;
+	width: 100%;
+}
+
+.banner {
+	padding: 20px;
+	background-color: #d0c5fc;
+	width: 100%;
+}
+
+.img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+.texto {
+	display: inline-block;
+	margin-left: 30%;
+	font-family: 'Roboto';
+}
+
+.texto h3 {
+	font-size: 30px;
+}
+
+.texto h4 {
+	color: #a59dc7;
+	font-size: 20px;
+}
+
+.consulta {
+	margin: 30px;
+	padding: 20px;
+	background-color: #574e7a;
+	width: 70%;
+}
+
+.titulo {
+	display: inline-block;
+}
+
+.titulo h4 {
+	color: white;
+}
+
+.icono {
+	display: inline-block;
+}
+
+.icono a img {
+	width: 20px;
+	height: 20px;
+}
+
+.formulario {
+	display: inline-block;
+	margin: 30px;
+	margin-top: -40px;
+	padding: 20px;
+	background-color: #b8a7fa;
+	width: 70%;
+}
+
+.formulario .marco {
+	padding: 20px;
+	border: 1px white solid;
+	width: 50%;
+}
+
+.formulario .btns {
+	display: flex;
+	margin-left: 20%;
+}
+
+.formulario .btns input {
+	padding: 5px;
+	border: 2px black solid;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(136,136,139,1) 46%, rgba(0,0,0,1) 100%);
+	color: white;
+}
+
+.img2 img {
+	display: flex;
+	margin-left: 60%;
+	margin-bottom: -90px;
+	transform: translateY(-120px);
+	width: 300px;
+	height: auto;
+}

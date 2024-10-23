@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Monedas</title>
+</head>
+<body>
+    <header>
+        <h1>CONVERSOR DE MONEDAS</h1>
+    </header>
+    <nav>
+        <h3>Jesús Raillo 2ºDAW</h3>
+    </nav>
+
+    <section class="contenedor">
+        <h2 id="form">¡Convierte las monedas!</h2>
+        <br>
+        <form action="convertir.php" method="POST">
+            <div class="form-css">
+                <label for="moneda">Introduce tu moneda</label>
+                <input type="text" name="moneda" id="moneda">
+            </div>
+            <br>
+            <div class="form-css"></div>
+                <label for="cantidad">Introduce el precio</label>
+                <input type="text" name="cantidad" id="cantidad">
+            </div>
+            <br>
+            <br>
+            <input type="submit" value="Convertir!" id="btn">
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    padding: 5px;
+    margin-left: 25%;
+    background-color: turquoise;
+    width: 50%;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+.contenedor {
+    margin: 20px;
+    padding: 30px;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 30%;
+    border: 0px solid;
+    border-radius: 35px;
+    -webkit-box-shadow: 10px 10px 92px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 92px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 92px 0px rgba(0, 0, 0, 0.75)
+}
+
+#form {
+    text-align: center;
+    text-shadow: 2px 3px 6px white;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+#moneda, #cantidad {
+    width: 50%;
+}
+
+#cantidad {
+    margin-left: 61px;
+}
+
+.form-css {
+    display: flex;
+    gap: 50px;
+}
+
+#btn {
+    margin-left: 40%;
+    padding: 3px;
+    border-radius: 35px;
+    background-color: aqua;
+    font-weight: bold;
+}

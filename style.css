@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Vina+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(fondo.jpg);
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Vina Sans';
+    font-size: 70px;
+    color: rgb(250, 239, 203);
+    text-shadow: 5px 1px 3px rgba(61, 40, 1, 0.6);
+}
+
+.contenedor {
+    margin-top: 150px;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.p1,
+.p2 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.p1 {
+    margin-left: 30px;
+}
+
+.p2 {
+    margin-left: -80px;
+}
+
+.webs {
+    padding: 40px;
+    border: 0px solid;
+    border-radius: 35px;
+    background: rgb(125, 7, 17);
+    background: linear-gradient(90deg, rgba(125, 7, 17, 1) 0%, rgba(243, 166, 42, 1) 0%, rgba(126, 74, 5, 1) 100%);
+}
+
+.webs a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Piedra';
+    color: rgb(52, 34, 2);
+    transition: .3s ease;
+}
+
+.webs a:hover {
+    font-size: 15px;
+}
